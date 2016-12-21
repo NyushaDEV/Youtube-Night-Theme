@@ -2,6 +2,8 @@
     Youtube dark Theme by TheRox
     Author: https://github.com/NyushaDEV/Youtube-Night-Theme/
 */
+@-moz-document url-prefix("https://www.youtube.com"), url-prefix("http://www.youtube.com") {
+/* i really want this to be global */
 body {
     background: black;
     color: white
@@ -171,4 +173,5 @@ label {
 #dashboard-header h2 a {
     color: #fff;
     box-shadow: none;
+}
 }
