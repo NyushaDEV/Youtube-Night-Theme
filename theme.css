@@ -1,0 +1,85 @@
+body {
+    background: black;
+    color: white
+}
+
+#yt-masthead-container {
+    background: #2c2c2c;
+    color: white
+}
+#masthead-appbar {
+    background-color: #252525;
+    border-bottom: 2px solid #cc181e;
+
+}
+.yt-card {
+    background: #333;
+}
+.yt-lockup {
+    color: #fff;
+}
+.yt-badge {
+    background: white;
+}
+.yt-lockup-title a, .yt-lockup:hover a, .yt-lockup:hover .yt-lockup-meta a, .yt-lockup:hover .yt-lockup-description a {
+    color: white;
+}
+a {
+    background: transparent !important;
+    color: white
+
+}
+a:hover {
+    color: #ddd;
+}
+.yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a, .yt-lockup .yt-lockup-byline a {
+    color:#2e2e2e;
+}
+.yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a, .yt-lockup .yt-lockup-byline a:hover {
+    color:#000;
+}
+
+.branded-page-module-title a:visited, .branded-page-module-title a {
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    padding-bottom: -1px;
+}
+#watch-headline-title {
+    color: #b5b5b5;
+}
+.video-list .video-list-item .title {
+    color: #F44336;
+    font-size: 14px;
+    font-weight: 500;
+}
+#watch8-action-buttons .yt-uix-button, #watch8-action-buttons .yt-uix-button:hover, #action-panel-dismiss, #action-panel-dismiss:hover {
+    color: white;
+}
+#action-panel-details a {
+    color: #e74235;
+}
+#action-panel-details a:hover {
+    color: #d03427;
+}
+.comment-section-header-renderer {
+    padding: 0 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #dedede;
+}
+.comment-renderer-reply {
+    color: #fff;
+
+}
+#watch-header .yt-user-info a {
+    color: #dcdcdc;
+}
+#watch-description {
+    color: #d8d8d8;
+}
+.comment-simplebox {
+    background-color: transparent;
+}
