@@ -1,7 +1,19 @@
+/*
+    Youtube dark Theme by TheRox
+    Author: https://github.com/NyushaDEV/Youtube-Night-Theme/
+*/
 body {
     background: black;
     color: white
 }
+
+#yt-masthead #logo-container .logo {
+    background: no-repeat url(http://i.imgur.com/MJX6QeL.png);
+    background-size: auto;
+    width: 136px;
+    height: 52px;
+}
+
 
 #yt-masthead-container {
     background: #252525;
@@ -149,4 +161,14 @@ label.single-option {
 }
 label {
     color: black;
+}
+
+#dashboard-header h2 {
+    text-shadow: none !important;
+    color: #fff !important;
+
+}
+#dashboard-header h2 a {
+    color: #fff;
+    box-shadow: none;
 }
