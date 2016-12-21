@@ -4,8 +4,8 @@ body {
 }
 
 #yt-masthead-container {
-    background: #2c2c2c;
-    color: white
+    background: #252525;
+    border-bottom: 1px solid #3a3a3a;
 }
 #masthead-appbar {
     background-color: #252525;
@@ -82,4 +82,71 @@ a:hover {
 }
 .comment-simplebox {
     background-color: transparent;
+}
+
+.yt-uix-clickcard-card.yt-masthead-multilogin .yt-masthead-picker-header, .yt-uix-clickcard-card.yt-masthead-multilogin .yt-masthead-multilogin-users-header {
+    color: #383838;
+}
+.comment-simplebox-text:focus {
+    outline: none;
+}
+.yt-uix-clickcard-card.yt-masthead-multilogin .yt-uix-card-body-arrow {
+    border-bottom-color: #fff;
+}
+#masthead-search-terms {
+    background-color: #1d1d1d;
+}
+
+#masthead-search-terms input {
+    color: #f1f1f1;
+}
+
+#watch7-sidebar .video-list-item a:visited .title, #watch7-sidebar .video-list-item a:visited .title .yt-deemphasized-text {
+    color: #717171;
+}
+a.yt-uix-button-epic-nav-item.selected, a.yt-uix-button-epic-nav-item.yt-uix-button-toggled, button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
+    color: #F44336;
+    font-weight: 500;
+}
+#appbar-nav .yt-uix-button.yt-uix-button-epic-nav-item {
+    color: #e0e0e0;
+}
+.webkit .yt-ui-ellipsis-2 {
+    -webkit-line-clamp: 2;
+    background: transparent;
+}
+.yt-lockup-byline a:hover {
+    color: #e5e5e5;
+}
+.yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a, .yt-lockup .yt-lockup-byline a {
+    color: #d4d4d4;
+}
+.yt-lockup .yt-lockup-meta a:hover, .yt-lockup .yt-lockup-description a:hover, .yt-lockup .yt-lockup-byline a:hover {
+    color: #d4d4d4;
+}
+.branded-page-module-title a:visited, .branded-page-module-title a {
+    color: #cacaca;
+}
+
+/* Creator Studio */
+#creator-sidebar .creator-sidebar-branding h1 {
+    color: #d4d4d4;
+}
+
+#creator-sidebar .creator-sidebar-section a {
+    display: block;
+    line-height: 24px;
+    font-size: 11px;
+    color: #d6d6d6;
+}
+
+#creator-sidebar .creator-sidebar-section a:hover {
+    color: white;
+} 
+label.single-option {
+    display: block;
+    color: black;
+}
+label {
+    color: black;
 }
