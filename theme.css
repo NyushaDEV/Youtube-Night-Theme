@@ -174,4 +174,8 @@ label {
     color: #fff;
     box-shadow: none;
 }
+.channel-header .branded-page-header-title .branded-page-header-title-link {
+    color: #cecece;
+}
+
 }
